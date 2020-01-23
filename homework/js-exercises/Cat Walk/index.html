@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Cat Walk</title>
+</head>
+
+<body>
+    <img style="position:absolute;" src="http://www.anniemation.com/clip_art/images/cat-walk.gif" />
+
+    <script>
+        let image = document.querySelector('img');
+        image.setAttribute('style', 'margin-left: 0px;');
+
+        const catWalk = () => {
+            positionOfCat = window.getComputedStyle(image).marginLeft.substring(0, window.getComputedStyle(image).marginLeft.length - 2);
+            positionInNum = parseInt(positionOfCat);
+            if (positionInNum > 1275) {
+                image.setAttribute('style', `margin-left: -275px;`);
+            } else {
+                newPosition = positionInNum + 3;
+                image.setAttribute('style', `margin-left: ${newPosition}px;`);
+            }
+
+        }
+
+        window.setInterval(catWalk, 25);
+    </script>
+
+</body>
+
+</html>
