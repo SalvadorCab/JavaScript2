@@ -1,7 +1,11 @@
-function hijackGoogleLogo () {
-let logo = document.getElementById('hplogo')
-logo.setAttribute('src', 'https://www.hackyourfuture.dk/static/logo-dark.svg');
-logo.setAttribute('srcset', 'https://www.hackyourfuture.dk/static/logo-dark.svg'); 
+function hijackGoogleLogo() {
+  let logo = document.getElementById("hplogo");
+  logo.setAttribute(
+    "src",
+    "https://www.hackyourfuture.dk/static/logo-dark.svg"
+  );
+  logo.setAttribute(
+    "srcset",
+    "https://www.hackyourfuture.dk/static/logo-dark.svg"
+  );
 }
-
-hijackGoogleLogo ();
