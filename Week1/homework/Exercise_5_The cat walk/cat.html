@@ -13,12 +13,11 @@
     img1.style.left = '0px';
  
    function moveCat() {
-     var x = window.innerWidth;
+     let x = window.innerWidth;
      console.log(x /2 );
       setInterval(function(){
           img1.style.left = parseInt(img1.style.left) + 20 + 'px';
           x = x - 20;
-          console.log(x);
           if (x == window.innerWidth / 2)
           {
             img1.removeAttribute('src'); 
