@@ -22,7 +22,7 @@ const books = [
   }
 ];
 
-var listOfbooks = document.createElement("ul");
+let listOfbooks = document.createElement("ul");
 
 books.forEach(book => {
   let newLi = document.createTextNode(`I want ${book.author}`);
