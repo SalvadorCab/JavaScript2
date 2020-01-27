@@ -42,16 +42,16 @@ const quotes = [
 ];
 
 
-console.log('rrrrrr');
+//console.log('rrrrrr');
 
-quotes.forEach((quote) => {
-    let content1 = document.createTextNode(`${quote.author}`);
-    console.log(content1);
+//quotes.forEach((quote) => {
+    //let content1 = document.createTextNode(`${quote.author}`);
+    // console.log(content1);
     
     //var it = document.parentDOM.getElementsByClassName("quot")[0].style.backgroundColor = "red";
    // document.querySelector(".quot").innerHTML = content1;
 
- });
+ //});
 
  document.getElementById("quotebtn").addEventListener("click", function(){
     var randomquote = quotes[Math.floor(Math.random()*quotes.length)];
