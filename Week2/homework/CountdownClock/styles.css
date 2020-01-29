@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('//db.onlinewebfonts.com/c/9f88c5b190469adccc60736a8612899c?family=LED+Digital+7');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #0D4D4D;
+}
+
+#title {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 2rem 2rem 1.5rem 2rem;
+}
+
+.fas {
+    color: white;
+    font-size: 2rem;
+}
+
+.sessionControl {
+    text-align: center;
+}
+
+#sessionLength {
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 1rem;
+    width: 5rem;
+}
+
+#sessionLengthTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#timer {
+    font-family: 'LED Digital 7', 'Orbitron', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#session {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.timerBox {
+    border: 8px solid #003333;
+    margin: 2rem 12rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.controls {
+    text-align: center;
+}
+
+.space {
+    margin: 1rem;
+}
