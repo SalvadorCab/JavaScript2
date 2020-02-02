@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+}
+
+#bill {
+    display: inline-block;
+    font-size: large;
+}
+
+#people {
+    display: inline-block;
+    font-size: large;
+    margin-left: 10px;
+}
+
+#tipCalc {
+    width: 35%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    top: 80px;
+    background-color: white;
+    align-items: flex-start;
+    border-radius: 10%;
+    padding-bottom: 50px;
+}
+
+#bill_amount {
+    margin-left: 20px;
+}
+
+#service {
+    margin-left: 40px;
+}
+
+#sharing {
+    margin-left: 20px;
+}
+
+#btn {
+    margin-top: 30px;
+    color: blueviolet;
+    align-self: center;
+    padding: 10px 30px;
+    font-size: large;
+    text-decoration: bold;
+    border-radius: 10px;
+}
+
+#amount {
+    text-align: center;
+    align-self: center;
+}
+
+input {
+    height: 30px;
+}
+
+h1 {
+    background-color: red;
+    /* margin-bottom: 20px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px 20px 0% 0%;
+}
+
+h2 {
+    margin: 20px 0px 20px 20px;
+}
