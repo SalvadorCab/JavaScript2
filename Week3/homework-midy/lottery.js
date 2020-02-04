@@ -14,7 +14,8 @@ function threeFive(startIndex, endIndex, three, five) {
   random(startParsed, endParsed);
   numbers.forEach(number => {
     if (number % 3 === 0 && number % 5 === 0) {
-      console.log(`${number} can be divided by both 3 and 5`);
+      three(number);
+      five(number);
     } else if (number % 3 === 0) {
       three(number);
     } else if (number % 5 === 0) {
