@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/e38f18b924.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesPomClock.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1>Pomodoro Clock</h1>
+    <h2>Session Length</h2>
+    <div id="session_container">
+        <i id='btn_down' class="fas fa-chevron-down"></i>
+        <div id="session_time">25</div>
+        <i id='btn_up' class="fas fa-chevron-up"></i>
+    </div>
+    <div id='session_clock'>
+        <h3>Session</h3>
+        <div id='timer' style="font-family: 'Orbitron', sans-serif"><span id='min'>25</span>:<span id='sec'>00</span>
+        </div>
+    </div>
+    <div id='signs'>
+        <i id='btn_play' class="fas fa-play-circle fa-5x"></i>
+        <i id='btn_pause' class="fas fa-pause-circle fa-5x"></i>
+        <i id='btn_reload' class="fas fa-redo-alt fa-5x"></i>
+    </div>
+    <script src='pomodoroClock.js'></script>
+</body>
+
+</html>
