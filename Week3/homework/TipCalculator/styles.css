@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+    font-size: 1.5rem;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    left: 25%;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: white;
+    align-items: center;
+    height: 95vh;
+    border-radius: 1rem;
+}
+
+.title__container {
+    background-color: tomato;
+    color: white;
+    width: 120%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.bill__container {
+    margin-bottom: 1.5rem;
+}
+
+.service__container {
+    margin-bottom: 1.5rem;
+}
+
+.people__container {
+    margin-bottom: 1.5rem;
+}
+
+.tip__amount {
+    margin-top: 1.5rem;
+}
+
+button {
+    padding: 1.5rem;
+    background-color: rgb(248, 98, 43);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+button:focus {
+    outline-style: none;
+    background-color: coral;
+}
+
+button:hover {
+    cursor: pointer;
+}
