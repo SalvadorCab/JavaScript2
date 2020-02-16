@@ -1,0 +1,63 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+body div{
+    height: 100vh;
+    float: left;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: white;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.leftSide {
+    width: 20%;
+    background: rgb(193, 207, 159);
+}
+
+.centerSide {
+    width: 60%;
+    background: rgb(166, 201, 147);
+}
+
+.rightSide {
+    width: 20%;
+    background: rgb(193, 207, 159);
+}
+
+.validador {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.accessResult {
+    color: white;
+}
+
+.bookInList{
+    margin-bottom: 10px;
+}
