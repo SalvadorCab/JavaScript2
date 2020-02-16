@@ -1,0 +1,94 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: chronometerFont;
+    src: url(fonts/digital/DS-DIGIB.TTF);
+  }
+
+  @font-face {
+    font-family: belagiana;
+    src: url(fonts/belagiana/BelagianaFlowersDEMOSans.ttf);
+  }
+
+body {
+    height: 100%;
+    align-items: center;
+    background-color: rgb(28, 76, 80);
+    font-family: belagiana, Times, serif;
+    color: white;
+}
+
+h1 {
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    font-size: 12vh;
+    text-align: center;
+}
+
+img:hover {
+    border-style: solid;
+    border-width: 0.2vh;
+    border-color: rgb(28, 76, 80);;
+}
+
+.principal {
+    width: 100%;
+    background: rgb(28, 76, 80);
+}
+
+.sessionLength{
+    text-align: center;
+    font-size: 8vh;
+}
+
+.setterContainer, .controlTools {
+    float: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+
+.setterContainer img, .controlTools img {
+    height: 10vh;
+    padding: 2vh;
+}
+
+.controlTools img {
+    margin-top: 3vh;
+}
+
+.setter {
+    text-align: center;
+    font-size: 9vh;
+    color: white;
+    width: 12vh;
+}
+
+.chronometer {
+    text-align: center;
+    border-style: solid;
+    margin: 0 auto;
+    width: 40vw;
+    height: 35vh;
+    border-width: 2vh;
+    border-color: rgb(19,49,54);
+    border-radius: 8vh;
+}
+
+.sessionText {
+    font-size: 7vh;
+    color: white;
+    padding-top: 5vh;
+}
+
+.activeChronometer {
+    font-size: 12vh;
+    font-family: chronometerFont, Times, serif;
+    color: white;
+    padding-bottom: 5vh;
+}
