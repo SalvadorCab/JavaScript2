@@ -1,0 +1,94 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+body {
+    height: 120vh;
+    align-items: left;
+    background-color: rgb(110,21,9);
+    font-family: belagiana, Times, serif;
+    color: white;
+}
+
+h1 {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 4vh;
+    text-align: center;
+}
+
+form{
+  padding: 3vw;
+  padding-top: 2vw;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: white;
+  color: black
+}
+
+form label{
+  font-size: 25px;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  display: block;
+}
+
+form p{
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  display: inline;
+  font-size: 3vh;
+}
+
+form div p{
+  display: block;
+  padding: 0;
+}
+
+.principal {
+    width: 40vw;
+    margin-top: 10vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    border-radius: 8px;
+    background: rgb(31, 2, 11);
+}
+
+.principal div{
+  text-align: center;
+}
+
+#billTotal, #peopleNumber{
+  height: 5vh;
+  width: 20vw;
+  font-size: 3vh;
+}
+
+#service{
+  height: 6vh;
+  width: 20vw;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.results{
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.resultButton{
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+.buttonSubmit{
+  width: 18vw;
+  height: 8vh;
+  border-radius: 5px;
+  border-style: none;
+  background: rgb(172, 19, 58);
+  color: white;
+  font-size: 4vh;
+}
